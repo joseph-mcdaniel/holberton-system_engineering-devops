@@ -1,1 +1,1 @@
-# holbertonschool-sysadmin_devops
+Write script to print absolute path of current working directory
