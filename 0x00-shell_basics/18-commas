@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mva ; echo
+echo ; ls -mva ; echo
