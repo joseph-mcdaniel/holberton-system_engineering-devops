@@ -1,3 +1,4 @@
 #!/bin/bash
-cut -f1 | sort | uniq -c | sort -nr | cut -c 9- | head -11
+tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | cut -c 9- | head -11
+
   
