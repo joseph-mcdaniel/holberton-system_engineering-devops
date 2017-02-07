@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%f$NUM\n" | cut -d0 -f1-4
