@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
-for i in *; do echo "$i" | sed 's/.*-//g'; done
+# display content of directory, in a list format, cut before dash
+for i in *; do echo "$i" | cut -d "-" -f2 ; done
