@@ -6,13 +6,13 @@
 i=1
 while [ $i -le 20 ]; do
     if [[ $i = 4 ]]; then
-      	echo "bad luck from China"
+      	echo -e "$i\nbad luck from China"
 	i=$(( i+1 ))
     elif [[ $i = 9 ]]; then
-	echo "bad luck from Japan"
+	echo -e "$i\nbad luck from Japan"
 	i=$(( i+1 ))
     elif [[ $i = 17 ]]; then
-	echo "bad luck from Italy"
+	echo -e "$i\nbad luck from Italy"
 	i=$(( i+1 ))
     else
 	echo "$i"
