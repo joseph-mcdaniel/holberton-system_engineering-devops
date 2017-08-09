@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # nginx fix
+# symbolic link method:
+# rm /etc/nginx/sites-enabled/
+# ln -s /etc/nginx/sites-available/mysite.com /etc/nginx/sites-enabled/
 sudo apt-get update
 sudo apt-get install nginx
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
