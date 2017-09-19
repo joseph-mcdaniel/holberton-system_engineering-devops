@@ -19,4 +19,5 @@ if __name__ == "__main__":
                                                           tasks,
                                                           len(todos)))
     for j in todos:
-        print("\t {}".format(j.get("title")))
+        if j["completed"]:
+            print("\t {}".format(j.get("title")))
