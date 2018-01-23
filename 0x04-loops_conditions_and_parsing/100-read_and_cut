@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# display contents of /etc/passwd file
+# fields: username (1), group id (3), full path for user (6)
+
+while read FILE; do echo "$FILE" | cut -f1,3,6 -d":"; done < /etc/passwd
